@@ -1,0 +1,18 @@
+responses = {    
+                 'i\'?m (.+)': 'Why do you think you are {}?',
+                 '[.]*(family)[.]*': 'Can you tell me more about your family?',
+                 'i love my (.*)': 'Why do you love your {}?',
+                 'i love (.*)': 'Why do you love {}?',
+                 'i hate my (.*)': 'Why do you hate your {}?',
+                 'i hate (.*)': 'Why do you hate {}?',
+                 'why([ .]*)\??': 'Why do you ask?',
+                 'do you ([a-zA-z ]+)\??': 'i don\'t {}',
+                 '(hello)([ .*)]?)': 'It is nice to be chatting with you',
+                 '(i am)': 'Why?',
+                 '(yes)': 'You seem so sure...',
+                 '(how are you)\??': 'I\'m fine thank you!',
+                 '(no)': 'Can you elaborate?',
+                 '(ok)([ .*]?)': 'Tell me more...',
+                 'you are like my ([\w ]+)': 'What resemblance do you see between me and your {}?',
+                 'you are|are you ([\w ]+)\??': 'Does it please you to believe i am {}?',
+            }
